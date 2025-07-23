@@ -9,7 +9,7 @@ use App\Http\Controllers\Auth\VerificationController;
 use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
